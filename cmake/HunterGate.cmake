@@ -112,7 +112,7 @@ function(hunter_gate_fatal_error)
 endfunction()
 
 function(hunter_gate_user_error)
-  hunter_gate_fatal_error(${ARGV} ERROR_PAGE "error.incorrect.input.data")
+  hunter_gate_fatal_error(${ARGV} ERROR_PAGE "error.incorrect.input.data") .
 endfunction()
 
 function(hunter_gate_self root version sha1 result)
